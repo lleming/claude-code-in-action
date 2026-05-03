@@ -14,6 +14,7 @@ import { CodeEditor } from "@/components/editor/CodeEditor";
 import { PreviewFrame } from "@/components/preview/PreviewFrame";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { HeaderActions } from "@/components/HeaderActions";
+import { Monitor, Code2 } from "lucide-react";
 
 interface MainContentProps {
   user?: {
@@ -66,9 +67,15 @@ export function MainContent({ user, project }: MainContentProps) {
                       setActiveView(v as "preview" | "code")
                     }
                   >
-                    <TabsList className="bg-white/60 border border-neutral-200/60 p-0.5 h-9 shadow-sm">
-                      <TabsTrigger value="preview" className="data-[state=active]:bg-white data-[state=active]:text-neutral-900 data-[state=active]:shadow-sm text-neutral-600 px-4 py-1.5 text-sm font-medium transition-all">Preview</TabsTrigger>
-                      <TabsTrigger value="code" className="data-[state=active]:bg-white data-[state=active]:text-neutral-900 data-[state=active]:shadow-sm text-neutral-600 px-4 py-1.5 text-sm font-medium transition-all">Code</TabsTrigger>
+                    <TabsList className="bg-neutral-100 border border-neutral-200 p-1 h-10 rounded-full shadow-inner gap-0.5">
+                      <TabsTrigger value="preview" className="data-[state=active]:bg-indigo-600 data-[state=active]:text-white data-[state=active]:shadow-md data-[state=active]:border-indigo-700 text-neutral-500 hover:text-neutral-700 px-4 py-1.5 text-sm font-medium transition-all duration-200 rounded-full flex items-center gap-1.5">
+                        <Monitor className="size-3.5" />
+                        Preview
+                      </TabsTrigger>
+                      <TabsTrigger value="code" className="data-[state=active]:bg-indigo-600 data-[state=active]:text-white data-[state=active]:shadow-md data-[state=active]:border-indigo-700 text-neutral-500 hover:text-neutral-700 px-4 py-1.5 text-sm font-medium transition-all duration-200 rounded-full flex items-center gap-1.5">
+                        <Code2 className="size-3.5" />
+                        Code
+                      </TabsTrigger>
                     </TabsList>
                   </Tabs>
                   <HeaderActions user={user} projectId={project?.id} />
