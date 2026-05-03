@@ -1,0 +1,90 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e60]: Create a pricing card component with a title, price, list of features, and a call-to-action button
+            - img [ref=e63]
+          - generic [ref=e100]:
+            - img [ref=e103]
+            - generic [ref=e112]:
+              - generic [ref=e113]:
+                - img [ref=e116]
+                - generic [ref=e121]: Created App.jsx
+              - separator [ref=e122]
+              - generic [ref=e123]:
+                - paragraph [ref=e124]: "Done! I've created a premium pricing card component with:"
+                - list [ref=e125]:
+                  - listitem [ref=e126]:
+                    - strong [ref=e127]: Dark gradient aesthetic
+                    - text: with purple/slate tones and a highlighted variant
+                  - listitem [ref=e128]:
+                    - strong [ref=e129]: Gradient text
+                    - text: for the title and price display
+                  - listitem [ref=e130]:
+                    - strong [ref=e131]: Feature list
+                    - text: with checkmark icons
+                  - listitem [ref=e132]:
+                    - strong [ref=e133]: Interactive CTA button
+                    - text: with hover effects and gradient styling
+                  - listitem [ref=e134]:
+                    - strong [ref=e135]: Subtle details
+                    - text: like inset borders, shadow layering, and smooth transitions
+                  - listitem [ref=e136]:
+                    - strong [ref=e137]: Responsive design
+                    - text: that scales on hover
+                - paragraph [ref=e138]: The component is fully reusable—just pass different props for title, price, features, and button text.
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [selected] [ref=e35]
+          - tab "Code" [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - iframe [ref=e139]:
+        - generic [ref=f2e5]:
+          - heading "Professional" [level=3] [ref=f2e6]
+          - generic [ref=f2e7]:
+            - generic [ref=f2e8]:
+              - generic [ref=f2e9]: $49
+              - generic [ref=f2e10]: /month
+            - paragraph [ref=f2e11]: Everything you need to scale
+          - list [ref=f2e12]:
+            - listitem [ref=f2e13]:
+              - img [ref=f2e14]
+              - generic [ref=f2e16]: Up to 100 projects
+            - listitem [ref=f2e17]:
+              - img [ref=f2e18]
+              - generic [ref=f2e20]: Advanced analytics
+            - listitem [ref=f2e21]:
+              - img [ref=f2e22]
+              - generic [ref=f2e24]: Priority support
+            - listitem [ref=f2e25]:
+              - img [ref=f2e26]
+              - generic [ref=f2e28]: Custom integrations
+            - listitem [ref=f2e29]:
+              - img [ref=f2e30]
+              - generic [ref=f2e32]: Team collaboration
+            - listitem [ref=f2e33]:
+              - img [ref=f2e34]
+              - generic [ref=f2e36]: API access
+          - button "Get Started" [ref=f2e37] [cursor=pointer]
+          - paragraph [ref=f2e38]: No credit card required. Cancel anytime.
+  - generic [ref=e88] [cursor=pointer]:
+    - button "Open issues overlay" [ref=e89]:
+      - img [ref=e91]
+      - generic [ref=e93]:
+        - generic [ref=e94]: "0"
+        - generic [ref=e95]: "1"
+      - generic [ref=e96]: Issue
+    - button "Collapse issues badge" [ref=e97]:
+      - img [ref=e98]
+  - alert [ref=e50]
